@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI vs Human</title>
+
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Rubik:wght@400;600&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        margin: 0;
+        color: white;
+        font-family: 'Rubik', sans-serif;
+
+        /* NICE SIMPLE BACKGROUND */
+        background: linear-gradient(135deg, #0f172a, #1e3a8a, #312e81);
+    }
+
+    header {
+        text-align: center;
+        padding: 30px;
+        background: rgba(0,0,0,0.4);
+    }
+
+    h1, h2 {
+        font-family: 'Bangers', cursive;
+        letter-spacing: 2px;
+    }
+
+    h1 {
+        font-size: 50px;
+        margin: 0;
+    }
+
+    .section {
+        padding: 40px;
+        text-align: center;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .card {
+        width: 270px;
+        padding: 20px;
+        border-radius: 15px;
+        background: rgba(0,0,0,0.6);
+        transition: transform 0.3s;
+    }
+
+    .card:hover {
+        transform: scale(1.08);
+    }
+
+    .icon {
+        font-size: 40px;
+    }
+
+    h3 {
+        margin: 10px 0;
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .compare {
+        margin-top: 10px;
+        text-align: left;
+    }
+
+    .ai {
+        color: #22c55e;
+    }
+
+    .human {
+        color: #60a5fa;
+    }
+
+    .audio-box {
+        margin-top: 30px;
+        padding: 20px;
+        background: rgba(0,0,0,0.6);
+        border-radius: 10px;
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+        background: rgba(0,0,0,0.5);
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>AI VS HUMAN</h1>
+    <p>Who does it better?</p>
+</header>
+
+<section class="section">
+    <h2>INDUSTRIES</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <div class="icon">💰</div>
+            <h3>Finance</h3>
+            <div class="compare">
+                <p class="ai"><strong>AI:</strong> AI checks data fast and finds fraud. It helps make quick choices.</p>
+                <p class="human"><strong>Human:</strong> Humans understand risk better. They think before big decisions.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="icon">🩺</div>
+            <h3>Healthcare</h3>
+            <div class="compare">
+                <p class="ai"><strong>AI:</strong> AI finds problems quickly in scans. It helps doctors work faster.</p>
+                <p class="human"><strong>Human:</strong> Doctors care for patients. They make the final call.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="icon">📚</div>
+            <h3>Education</h3>
+            <div class="compare">
+                <p class="ai"><strong>AI:</strong> AI gives fast answers. It helps students anytime.</p>
+                <p class="human"><strong>Human:</strong> Teachers explain and support. They guide learning.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="icon">🌾</div>
+            <h3>Agriculture</h3>
+            <div class="compare">
+                <p class="ai"><strong>AI:</strong> AI tracks crops and weather. It helps grow more food.</p>
+                <p class="human"><strong>Human:</strong> Farmers know the land. They make smart choices.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="icon">🛍️</div>
+            <h3>Retail</h3>
+            <div class="compare">
+                <p class="ai"><strong>AI:</strong> AI suggests products. It makes shopping faster.</p>
+                <p class="human"><strong>Human:</strong> Staff help customers. They give personal advice.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="section">
+    <h2>PODCAST</h2>
+
+    <div class="audio-box">
+        <audio controls>
+            <source src="podcast1.mp3" type="audio/mpeg">
+            Your browser does not support audio.
+        </audio>
+    </div>
+</section>
+
+<footer>
+    <p>AI vs Human Project</p>
+</footer>
+
+</body>
+</html>
